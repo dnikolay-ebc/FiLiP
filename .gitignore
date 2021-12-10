@@ -12,6 +12,7 @@ __pycache__
 *.yml
 # include issue branch workflows
 !.github/workflows/issue-tracker.yml
+!.github/workflows/semantic-release.yml
 !.github/issue-branch.yml
 
 *.yaml
