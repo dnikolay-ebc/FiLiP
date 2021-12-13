@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2021-12-13)
+### Fix
+* Fixed commit-subject ([`c9a9abb`](https://github.com/dnikolay-ebc/FiLiP/commit/c9a9abb2588286158feba98638158cf982492ff2))
+
 ## v0.2.0 (2021-12-10)
 ### Feature
 * **ci:** Enable semantic release ([`ce3c79a`](https://github.com/dnikolay-ebc/FiLiP/commit/ce3c79a01a24411cce95fa5d3a8c030acf66ad54))
