@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.2 (2021-12-13)
+### Fix
+* Fixed commit-subject again ([`32c4225`](https://github.com/dnikolay-ebc/FiLiP/commit/32c4225064fe78c1cce3679aa40edc34f71c4788))
+
 ## v0.2.1 (2021-12-13)
 ### Fix
 * Fixed commit-subject ([`c9a9abb`](https://github.com/dnikolay-ebc/FiLiP/commit/c9a9abb2588286158feba98638158cf982492ff2))
