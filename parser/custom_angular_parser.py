@@ -6,13 +6,12 @@ https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-g
 import logging
 import re
 
-from  semantic_release.errors import ImproperConfigurationError, UnknownCommitMessageStyleError
+from semantic_release.errors import ImproperConfigurationError, UnknownCommitMessageStyleError
 from semantic_release.helpers import LoggedFunction
-from semantic_release.settings import config
 from semantic_release.history.parser_helpers import ParsedCommit, parse_paragraphs, re_breaking
+from semantic_release.settings import config
 
 logger = logging.getLogger(__name__)
-
 
 # types with long names in changelog
 LONG_TYPE_NAMES = {
@@ -40,10 +39,10 @@ def parse_commit_message(message: str) -> ParsedCommit:
     patch_types = config.get("parser_angular_patch_types").split(",")
     re_parser = re.compile(
         r"(?P<type>" + "|".join(allowed_types) + ")"
-        r"(?:\((?P<scope>[^\n]+)\))?"
-        r"(?P<break>!)?: "
-        r"(?P<subject>[^\n]+)"
-        r"(:?\n\n(?P<text>.+))?",
+                                                 r"(?:\((?P<scope>[^\n]+)\))?"
+                                                 r"(?P<break>!)?: "
+                                                 r"(?P<subject>[^\n]+)"
+                                                 r"(:?\n\n(?P<text>.+))?",
         re.DOTALL,
     )
 
