@@ -1,1 +1,1 @@
-from .custom_angular_parser import parse_commit_message as custom_angular_parser # noqa:skip
+from .custom_angular_parser import parse_commit_message as custom_angular_parser # noqa
