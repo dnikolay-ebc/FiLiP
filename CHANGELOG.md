@@ -2,6 +2,23 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2021-12-15)
+### Feature
+* **ci:** Enable semantic release ([`ce3c79a`](https://github.com/dnikolay-ebc/FiLiP/commit/ce3c79a01a24411cce95fa5d3a8c030acf66ad54))
+
+### Fix
+* Fixed commit-subject again ([`32c4225`](https://github.com/dnikolay-ebc/FiLiP/commit/32c4225064fe78c1cce3679aa40edc34f71c4788))
+* Fixed commit-subject ([`c9a9abb`](https://github.com/dnikolay-ebc/FiLiP/commit/c9a9abb2588286158feba98638158cf982492ff2))
+* Removed typo in setup.cfg ([`557da05`](https://github.com/dnikolay-ebc/FiLiP/commit/557da05a117e807c14c89fa4703fd62dbe44333d))
+* Add semantic release pipeline ([`5a76ba4`](https://github.com/dnikolay-ebc/FiLiP/commit/5a76ba4e586f607cc4a73ff3bcb3a8cad4c8f8e1))
+* Added version placeholder to changelog ([`20bf979`](https://github.com/dnikolay-ebc/FiLiP/commit/20bf97970f2d1eb303066eff63e710a2285b7a97))
+* Escape '*' in regex ([`01db2c4`](https://github.com/dnikolay-ebc/FiLiP/commit/01db2c467281839d148a5e27ae42a9ce70db4a2b))
+* Updated QueryStatement regex to match specification ([`0f1aeb9`](https://github.com/dnikolay-ebc/FiLiP/commit/0f1aeb9a17ca4e5d68907263f2ff23738f9aa67a))
+
+### Merge
+* Test custom parser 2 ([`4874b23`](https://github.com/dnikolay-ebc/FiLiP/commit/4874b233df62c56a4088553251ef17d3f84f1a9f))
+* Test custom parser ([`8416023`](https://github.com/dnikolay-ebc/FiLiP/commit/84160238b281c2520c5e710ef2b837973501e7c4))
+
 #### v0.1.8
 - QuantumLeap request pagination ([#47](https://github.com/RWTH-EBC/FiLiP/issues/47))
 - introduce mqtt client ([#45](https://github.com/RWTH-EBC/FiLiP/issues/45))
