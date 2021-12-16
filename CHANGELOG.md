@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.0 (2021-12-16)
+### Feature
+* Super feat ([`cb89d17`](https://github.com/dnikolay-ebc/FiLiP/commit/cb89d17b2b93f8380b26d97561cb6f2734d03c41))
+
 ## v0.2.0 (2021-12-15)
 ### Feature
 * **ci:** Enable semantic release ([`ce3c79a`](https://github.com/dnikolay-ebc/FiLiP/commit/ce3c79a01a24411cce95fa5d3a8c030acf66ad54))
