@@ -47,3 +47,5 @@ setuptools.setup(
     python_requires=">=3.7",
     download_url =""
 )
+
+TEST = 'test'
